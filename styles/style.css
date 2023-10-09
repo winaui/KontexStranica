@@ -396,7 +396,6 @@ table, tr, td {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .team-memb{
@@ -407,7 +406,7 @@ table, tr, td {
     width: 310px;
     height: 280px;
     border-radius: 8%;
-    margin: 35px;
+    margin: 21px;
 }
 
 .team-memb h4{
