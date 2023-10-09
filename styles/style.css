@@ -375,48 +375,53 @@ table, tr, td {
     font-size: 18px;
 }
 
-
-.wrapper{
+.wrapper {
     background: #f0f0f0;
     margin-left: 50px;
     padding: 20px;
 }
 
-.wrapper h2{
+.wrapper h2 {
     text-align: center;
     padding: 20px;
     color: royalblue;
 }
 
-.wrapper p{
+.wrapper p {
     font-size: 14px;
 }
 
-.members{
+.members {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.team-memb{
-    margin: 8px;
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust the margin as needed */
 }
 
-.team-memb img{
+.team-memb {
+    margin: 8px;
+    text-align: center;
+}
+
+.team-memb img {
     width: 310px;
     height: 280px;
     border-radius: 8%;
     margin: 21px;
 }
 
-.team-memb h4{
-    text-align: center;
+.team-memb h4 {
     font-size: 16px;
     margin: 7px;
     color: royalblue;
 }
 
 p {
-    text-align: center;
     font-size: 19px;
 }
