@@ -301,9 +301,13 @@ h3 {
 }
 
 .footer {
-    width: 10%;
     margin: auto;
-    align-items: center;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 19px;
+    white-space: nowrap;
 }
 
 .opis {
